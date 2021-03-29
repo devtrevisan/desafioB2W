@@ -1,0 +1,74 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&display=swap');
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #2D3B40;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+li a {
+    color: #D99441;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+h1,
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #D99441;
+    font-size: 70px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    color: #F0F1F2;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+
+}
+
+.ultimoparagrafo {
+    padding-bottom: 20px;
+}
+
+.apresentacao {
+    margin: 60px 60px 60px 60px;
+    background-color: rgba(45, 59, 64, 70%);
+    border-radius: 20px;
+    align-items: center;
+}
